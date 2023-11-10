@@ -1,4 +1,4 @@
-import FooterLinks from "./FooterLinks";
+import FooterLinks from "./FooterLinks.jsx";
 
 const FooterMenu = () => {
   const footerLinks = {
