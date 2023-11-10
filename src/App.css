@@ -9,7 +9,7 @@
   grid-template-columns: repeat(auto-fill, minmax(min(100%, 12.5rem), 1fr));
 }
 
-.prices {
+.awards {
   grid-column: span 3;
 }
 
@@ -23,7 +23,19 @@ li {
   font-family: "Montserrat", sans-serif;
 }
 
-@media (max-width: 1280px) {
+.reveal {
+  position: relative;
+  transform: translateY(50px);
+  opacity: 0;
+  transition: all 1s ease;
+}
+
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+@media (max-width: 1200px) {
   #root {
     padding: 0 16px;
   }
