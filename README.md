@@ -1,8 +1,11 @@
-# React + Vite
+# Neo Consulting Footer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Prueba técnica para el puesto de Frontend Developer en Neo Consulting.
 
-Currently, two official plugins are available:
+## Tecnologías usadas para esta prueba
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Usé Vite para la creación del proyecto.
+- React como biblioteca de JS.
+- TailwindCSS para el maquetado y estilos de la web.
+- Vercel como plataforma de despliegue.
+  Puede ver el resultado dando click [aquí](https://neo-footer.vercel.app/).
