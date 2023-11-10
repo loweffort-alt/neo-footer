@@ -9,10 +9,27 @@
   grid-template-columns: repeat(auto-fill, minmax(min(100%, 12.5rem), 1fr));
 }
 
-.qwea {
+.prices {
   grid-column: span 3;
 }
 
 .partner {
   grid-column: span 3;
+}
+
+h3,
+li {
+  color: #000033;
+  font-family: "Montserrat", sans-serif;
+}
+
+@media (max-width: 1280px) {
+  #root {
+    padding: 0 16px;
+  }
+
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+  }
 }

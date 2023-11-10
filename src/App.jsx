@@ -20,16 +20,16 @@ function App() {
 
   return (
     <>
-      <section className="flex flex-col justify-between w-full lg:flex-row">
-        <FooterLinks links={footerLinks.services} name="Services" />
+      <section className="flex flex-col justify-between w-full xl:flex-row">
+        <FooterLinks links={footerLinks.services} name="Servicios" />
         <FooterLinks links={footerLinks.about} name="Sobre NEO" />
         <FooterLinks links={footerLinks.countries} name="Países" />
         <FooterLinks links={footerLinks.resources} name="Recursos" />
       </section>
-      <section className="grid-container items-center">
+      <section className="grid-container items-center pt-10">
         <div>
-          <div className="flex flex-col items-center lg:items-start">
-            <h3 className="text-black font-bold text-2xl leading-[24px] pb-3">
+          <div className="flex flex-col items-center xl:items-start">
+            <h3 className="font-bold text-2xl leading-[24px] pb-3">
               Redes Sociales
             </h3>
             <div className="grid grid-cols-4 w-full justify-items-center">
@@ -68,9 +68,9 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="qwea">
-          <div className="flex flex-col items-center lg:items-start wea">
-            <h3 className="text-black font-bold text-2xl leading-[24px] pb-3">
+        <div className="prices">
+          <div className="flex flex-col items-center xl:items-start wea">
+            <h3 className="font-bold text-2xl leading-[24px] pb-3 text-center">
               Premios y reconocimientos
             </h3>
             <div className="grid grid-cols-4 w-full justify-items-center gap-5">
@@ -105,8 +105,8 @@ function App() {
           </div>
         </div>
         <div>
-          <div className="flex flex-col items-center lg:items-start">
-            <h3 className="text-black font-bold text-2xl leading-[24px] pb-3">
+          <div className="flex flex-col items-center">
+            <h3 className="font-bold text-2xl leading-[24px] pb-3">
               Afiliaciones
             </h3>
             <div className="grid grid-cols-1 w-full justify-items-center">
@@ -118,11 +118,11 @@ function App() {
           </div>
         </div>
         <div className="partner">
-          <div className="flex flex-col items-center lg:items-start">
-            <h3 className="text-black font-bold text-2xl leading-[24px] pb-3">
+          <div className="flex flex-col items-center xl:items-start">
+            <h3 className="font-bold text-2xl leading-[24px] pb-3">
               Somos Partners
             </h3>
-            <div className="grid grid-cols-4 w-full justify-items-center gap-10">
+            <div className="grid grid-cols-4 w-full justify-items-center">
               <div>
                 <img
                   src="https://neoconsulting.ai/_next/static/media/google-marketing-platform.eb4d11ee.png"
@@ -150,16 +150,8 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="teemo">1</div>
-        <div className="teemo">2</div>
-        <div className="teemo">3</div>
-        <div className="teemo">4</div>
-        <div className="teemo">5</div>
-        <div className="teemo">6</div>
-        <div className="teemo">7</div>
-        <div className="teemo">8</div>
       </section>
-      <section className="border-b-black border-b-2 pt-10"></section>
+      <section className="border-b-black border-b-2 my-10"></section>
     </>
   );
 }
